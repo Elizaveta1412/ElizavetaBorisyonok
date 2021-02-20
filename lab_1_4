@@ -15,7 +15,7 @@ namespace Lab_1
 
             Random random = new Random();
 
-            PlayerCard += random.Next(1, 12);
+            PlayerCard += random.Next(1, 12); 
             DealerCard += random.Next(1, 12);
 
             if (PlayerCard > 21)
@@ -35,19 +35,19 @@ namespace Lab_1
             {
                 if (PlayerCard == 21)
                 {
-                    Console.WriteLine("Количество очков игрока: = 21");
+                    Console.WriteLine("Player Points: = 21");
                     break;
                 }
-                Console.WriteLine("Мое кол-во очков: " + PlayerCard.ToString() + ". Взять еще карту?");
+                Console.WriteLine("My points: " + PlayerCard.ToString() + ". Take another card?");
 
                 string answer = Console.ReadLine();
 
-                if (answer == "да")
+                if (answer == "yes")
                 {
                     PlayerCard += random.Next(1, 12);
                     if (PlayerCard > 21)
                     {
-                        Console.WriteLine("Ты проиграл(");
+                        Console.WriteLine("You lose");
                         break;
                     }
                     else
@@ -55,13 +55,13 @@ namespace Lab_1
                         continue;
                     }
                 }
-                else if (answer == "нет")
+                else if (answer == "no")
                 {
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("Неправильный ввод, ввести можно только (да) или (нет).");
+                    Console.WriteLine("Incorrect entry, you can only enter (yes) or (no).");
                     continue;
                 }
             }
@@ -69,8 +69,8 @@ namespace Lab_1
             Console.WriteLine("\n");
             Console.WriteLine("----------------------------------");
 
-            Console.WriteLine("Количество очков игрока: " + PlayerCard.ToString());
-            Console.WriteLine("Количество очков крупье: " + DealerCard.ToString());
+            Console.WriteLine("Player Points: " + PlayerCard.ToString());
+            Console.WriteLine("Dealer Points: " + DealerCard.ToString());
 
             if (PlayerCard <= 21)
             {
@@ -81,25 +81,25 @@ namespace Lab_1
 
                 if (PlayerCard == DealerCard)
                 {
-                    Console.WriteLine("Игрок и Крупье сыграли вничью");
+                    Console.WriteLine("The Player and the Croupier tied");
                 }
 
                 else if (PlayerCard < DealerCard && DealerCard <= 21)
                 {
-                    Console.WriteLine("Крупье победил");
+                    Console.WriteLine("The dealer won");
                 }
                 else if (DealerCard > 21)
                 {
-                    Console.WriteLine("Крупье проиграл, игрок выиграл");
+                    Console.WriteLine("The dealer has lost, the player has won");
                 }
                 else if (DealerCard == 21)
                 {
-                    Console.WriteLine("Крупье выиграл");
+                    Console.WriteLine("The dealer won");
                 }
             }
             else
             {
-                Console.WriteLine("Крупье выиграл");
+                Console.WriteLine("The dealer won");
             }
             Console.ReadLine();
         }
