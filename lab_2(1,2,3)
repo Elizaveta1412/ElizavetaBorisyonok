@@ -1,0 +1,212 @@
+////11111111111111111111111111111111
+///
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace lab_2_1
+//{
+//    class Program
+//    {
+
+//        static void Main(string[] args)
+//        {
+//            int count0 = 0;
+//            int count1 = 0;
+//            int count2 = 0;
+//            int count3 = 0;
+//            int count4 = 0;
+//            int count5 = 0;
+//            int count6 = 0;
+//            int count7 = 0;
+//            int count8 = 0;
+//            int count9 = 0;
+
+//            DateTime data1 = new DateTime();
+//            data1 = DateTime.Now;
+
+//            Console.WriteLine(DateTime.Now);
+//            string strDate = data1.ToString();
+
+//            Console.WriteLine(data1.ToLongDateString());
+
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '0')
+//                {
+//                    count0++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '1')
+//                {
+//                    count1++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '2')
+//                {
+//                    count2++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '3')
+//                {
+//                    count3++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '4')
+//                {
+//                    count4++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '5')
+//                {
+//                    count5++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '6')
+//                {
+//                    count6++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '7')
+//                {
+//                    count7++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '8')
+//                {
+//                    count8++;
+//                }
+//            }
+
+//            for (int i = 0; i < strDate.Length; i++)
+//            {
+//                if (strDate[i] == '9')
+//                {
+//                    count9++;
+//                }
+//            }
+
+//            Console.WriteLine("\n");
+
+//            Console.WriteLine("Количество 0: " + count0);
+//            Console.WriteLine("Количество 1: " + count1);
+//            Console.WriteLine("Количество 2: " + count2);
+//            Console.WriteLine("Количество 3: " + count3);
+//            Console.WriteLine("Количество 4: " + count4);
+//            Console.WriteLine("Количество 5: " + count5);
+//            Console.WriteLine("Количество 5: " + count6);
+//            Console.WriteLine("Количество 7: " + count7);
+//            Console.WriteLine("Количество 8: " + count8);
+//            Console.WriteLine("Количество 9: " + count9);
+
+//            Console.ReadLine();
+//        }
+//    }
+//}
+
+
+
+////222222222222222222222222222222222222222
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace Lab2_2
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.Write("Введите строку :");
+
+//            String words = Console.ReadLine();
+
+//            for (int i = 0; i < words.Length; i++)
+//            {
+//                char c = words[i];
+//                if ((c >= 'А') && (c <= 'Я'))
+//                {
+
+//                    Console.WriteLine("Заглавные русские буквы:" + words[i]);
+//                }
+//            }
+
+//            Console.ReadLine();
+//        }
+//    }
+//}
+
+
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace Lab2_3
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Enter sides: ");
+//            string d = Console.ReadLine();
+//            string e = Console.ReadLine();
+//            string f = Console.ReadLine();
+
+//            int a = Convert.ToInt32(d);
+//            int b = Convert.ToInt32(e);
+//            int c = Convert.ToInt32(f);
+
+//            double p = (a + b + c) / 2;
+
+//            Console.WriteLine("Inscribed circle radius:");
+//            double radiusmal = Math.Sqrt(((p - a) * (p - b) * (p - c)) / p);
+//            Console.WriteLine(radiusmal);
+
+//            Console.WriteLine("Radius of the circumscribed circle:");
+//            double radiusbig = (a * b * c) / (4 * Math.Sqrt(p * (p - a) * (p - b) * (p - c)));
+//            Console.WriteLine(radiusbig);
+
+//            Console.WriteLine("Square:");
+//            double s = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+//            Console.WriteLine(s);
+
+//            Console.WriteLine("Perimeter:");
+//            double P = a + b + c;
+//            Console.WriteLine(P);
+
+//            Console.ReadKey();
+//        }
+//    }
+//}
