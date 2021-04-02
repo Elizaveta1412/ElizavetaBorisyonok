@@ -1,0 +1,15 @@
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.exe
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.deps.json
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.runtimeconfig.json
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.runtimeconfig.dev.json
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.dll
+D:\labs c#\GDIPainter\bin\Debug\netcoreapp3.1\GDIPainter.pdb
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.csprojAssemblyReference.cache
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.FormMain.resources
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.csproj.GenerateResource.cache
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.AssemblyInfoInputs.cache
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.AssemblyInfo.cs
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.csproj.CoreCompileInputs.cache
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.dll
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.pdb
+D:\labs c#\GDIPainter\obj\Debug\netcoreapp3.1\GDIPainter.genruntimeconfig.cache
