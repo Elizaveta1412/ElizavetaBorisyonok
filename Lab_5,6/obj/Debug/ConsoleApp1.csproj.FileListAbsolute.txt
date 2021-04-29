@@ -1,0 +1,14 @@
+D:\labs c#\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\labs c#\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\labs c#\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\labs c#\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\labs c#\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\labs c#\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\labs c#\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\labs c#\Lab_3\bin\Debug\ConsoleApp1.exe.config
+D:\labs c#\Lab_3\bin\Debug\ConsoleApp1.exe
+D:\labs c#\Lab_3\bin\Debug\ConsoleApp1.pdb
+D:\labs c#\Lab_3\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\labs c#\Lab_3\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\labs c#\Lab_3\obj\Debug\ConsoleApp1.exe
+D:\labs c#\Lab_3\obj\Debug\ConsoleApp1.pdb
