@@ -1,0 +1,7 @@
+D:\labs c#\LR7\obj\Debug\LR7.csprojAssemblyReference.cache
+D:\labs c#\LR7\obj\Debug\LR7.csproj.CoreCompileInputs.cache
+D:\labs c#\LR7\bin\Debug\LR7.exe.config
+D:\labs c#\LR7\bin\Debug\LR7.exe
+D:\labs c#\LR7\bin\Debug\LR7.pdb
+D:\labs c#\LR7\obj\Debug\LR7.exe
+D:\labs c#\LR7\obj\Debug\LR7.pdb
